@@ -1,0 +1,10 @@
+pymongo
+python-docx
+PyPDF2
+pillow
+pytesseract
+gpt4all
+sentence-transformers
+torch
+tqdm
+tabulate

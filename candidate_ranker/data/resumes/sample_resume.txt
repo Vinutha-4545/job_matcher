@@ -1,0 +1,8 @@
+John Doe
+Email: john.doe@example.com
+Location: New York, NY
+Experience:
+- Software Engineer at Acme Corp (2018-2022) - 4 years
+- Senior Developer at Beta LLC (2022-2025) - 3 years
+Skills: Python, SQL, Machine Learning, Docker, REST APIs
+Education: B.Sc. Computer Science
