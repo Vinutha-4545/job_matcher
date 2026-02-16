@@ -41,8 +41,21 @@ python -m candidate_ranker.main add-job --id JD001 --file jd.txt
 5. Rank candidates for the job:
 
 ```powershell
-python -m candidate_ranker.main rank --job-id JD001
+python -m candidate_ranker.main rank --job-id JD001 --top 5
 ```
+
+You can pass `--top` to control how many candidates are shown (default 10).
+
+---
+
+### Interactive startup (new behaviour)
+
+If you run the module without any arguments it will automatically ingest any
+job description files located under `data/jds` and resumes in `data/resumes`.
+You will then be prompted to enter a job ID (e.g. `JD001`) and the number of
+top candidates to display (default 5). This shortcut avoids having to call the
+`ingest`/`add-job` commands manually when you have your data stored in the
+project’s `data` directory.
 
 Notes
 
