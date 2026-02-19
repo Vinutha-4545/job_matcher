@@ -116,3 +116,515 @@ RuntimeError: LLM failed to extract JD
 2026-02-09 16:16:29,474 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
 2026-02-09 16:16:30,067 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
 2026-02-09 16:16:30,068 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:04:30,345 | ERROR | root | Command failed
+Traceback (most recent call last):
+  File "C:\Users\303380\Desktop\job_matcher\candidate_ranker\main.py", line 88, in main
+    from .extractor import ingest_resumes
+  File "C:\Users\303380\Desktop\job_matcher\candidate_ranker\extractor.py", line 12, in <module>
+    from PIL import Image
+ModuleNotFoundError: No module named 'PIL'
+2026-02-19 12:06:16,555 | ERROR | root | Command failed
+Traceback (most recent call last):
+  File "C:\Users\303380\Desktop\job_matcher\candidate_ranker\main.py", line 88, in main
+    from .extractor import ingest_resumes
+  File "C:\Users\303380\Desktop\job_matcher\candidate_ranker\extractor.py", line 13, in <module>
+    import pytesseract
+ModuleNotFoundError: No module named 'pytesseract'
+2026-02-19 12:06:45,839 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:06:47,411 | INFO | candidate_ranker.job_processor | Inserted job JD001 into DB
+2026-02-19 12:06:47,418 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:06:48,956 | INFO | candidate_ranker.job_processor | Inserted job JD002 into DB
+2026-02-19 12:06:48,966 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:06:50,494 | INFO | candidate_ranker.job_processor | Inserted job JD003 into DB
+2026-02-19 12:06:50,506 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:06:52,017 | INFO | candidate_ranker.job_processor | Inserted job JD004 into DB
+2026-02-19 12:06:52,029 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:06:53,554 | INFO | candidate_ranker.job_processor | Inserted job JD005 into DB
+2026-02-19 12:06:55,122 | INFO | candidate_ranker.extractor | Inserted candidate sim-5941227 into DB
+2026-02-19 12:08:57,310 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:08:57,311 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:08:57,913 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:08:57,914 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:08:58,915 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:08:59,500 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:08:59,501 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:11:10,265 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:11:10,285 | INFO | candidate_ranker.job_processor | Inserted job JD001 into DB
+2026-02-19 12:11:10,291 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:11:10,299 | INFO | candidate_ranker.job_processor | Inserted job JD002 into DB
+2026-02-19 12:11:10,304 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:11:10,313 | INFO | candidate_ranker.job_processor | Inserted job JD003 into DB
+2026-02-19 12:11:10,318 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:11:10,330 | INFO | candidate_ranker.job_processor | Inserted job JD004 into DB
+2026-02-19 12:11:10,335 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:11:10,344 | INFO | candidate_ranker.job_processor | Inserted job JD005 into DB
+2026-02-19 12:11:11,922 | INFO | candidate_ranker.extractor | Inserted candidate sim-57607468 into DB
+2026-02-19 12:11:13,433 | INFO | candidate_ranker.extractor | Inserted candidate sim-75217667 into DB
+2026-02-19 12:11:15,023 | INFO | candidate_ranker.extractor | Inserted candidate sim-1964785 into DB
+2026-02-19 12:11:16,534 | INFO | candidate_ranker.extractor | Inserted candidate sim-95646585 into DB
+2026-02-19 12:11:18,050 | INFO | candidate_ranker.extractor | Inserted candidate sim-48833979 into DB
+2026-02-19 12:11:19,560 | INFO | candidate_ranker.extractor | Inserted candidate sim-93959370 into DB
+2026-02-19 12:11:21,080 | INFO | candidate_ranker.extractor | Inserted candidate sim-19457364 into DB
+2026-02-19 12:11:22,656 | INFO | candidate_ranker.extractor | Inserted candidate sim-68876339 into DB
+2026-02-19 12:11:24,220 | INFO | candidate_ranker.extractor | Inserted candidate sim-99404660 into DB
+2026-02-19 12:11:25,787 | INFO | candidate_ranker.extractor | Inserted candidate sim-99404660 into DB
+2026-02-19 12:11:27,322 | INFO | candidate_ranker.extractor | Inserted candidate sim-75701601 into DB
+2026-02-19 12:11:27,326 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:11:28,839 | INFO | candidate_ranker.extractor | Inserted candidate sim-87980810 into DB
+2026-02-19 12:11:28,846 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:11:30,368 | INFO | candidate_ranker.extractor | Inserted candidate sim-97025367 into DB
+2026-02-19 12:11:30,375 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:11:31,887 | INFO | candidate_ranker.extractor | Inserted candidate sim-65404092 into DB
+2026-02-19 12:11:31,894 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:11:33,407 | INFO | candidate_ranker.extractor | Inserted candidate sim-57230516 into DB
+2026-02-19 12:11:33,411 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:11:34,923 | INFO | candidate_ranker.extractor | Inserted candidate sim-5619910 into DB
+2026-02-19 12:11:36,481 | INFO | candidate_ranker.extractor | Inserted candidate sim-63322325 into DB
+2026-02-19 12:11:36,485 | INFO | candidate_ranker.extractor | Inserted candidate sim-5941227 into DB
+2026-02-19 12:11:38,038 | INFO | candidate_ranker.extractor | Inserted candidate sim-86479458 into DB
+2026-02-19 12:12:31,364 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:12:31,365 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:12:32,097 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:12:32,098 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:12:33,099 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:12:33,713 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:12:33,714 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:12:34,720 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:12:34,721 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:12:35,370 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:12:35,370 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:12:36,371 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:12:37,839 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:12:37,840 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:12:38,846 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:12:38,847 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:12:40,228 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:12:40,229 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:12:41,231 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:12:41,845 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:12:41,845 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:12:42,849 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:12:42,850 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:12:43,425 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:12:43,426 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:12:44,428 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:12:45,038 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:12:45,039 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:12:46,046 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:12:46,046 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:12:46,598 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:12:46,599 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:12:47,601 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:12:48,186 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:12:48,187 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:12:49,195 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:12:49,196 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:12:49,759 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:12:49,760 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:12:50,762 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:12:51,374 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:12:51,375 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:12:52,381 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:12:52,382 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:12:52,975 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:12:52,976 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:12:53,977 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:12:54,523 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:12:54,524 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:12:55,529 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:12:55,530 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:12:56,102 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:12:56,104 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:12:57,105 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:12:58,650 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:12:58,651 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:12:59,657 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:12:59,657 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:13:00,255 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:13:00,256 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:13:01,258 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:13:22,734 | WARNING | huggingface_hub.utils._http | '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:13:22,735 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:13:23,741 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:13:23,741 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:13:24,774 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:13:24,774 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:13:25,775 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:13:26,552 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:13:26,553 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:13:27,554 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:13:27,555 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:13:28,185 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:13:28,186 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:13:29,187 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:13:30,136 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:13:30,137 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:13:31,142 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:13:31,143 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:13:31,903 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:13:31,904 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:13:32,906 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:13:33,679 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:13:33,679 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:13:34,686 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:13:34,686 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:13:35,245 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:13:35,246 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:13:36,247 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:13:36,756 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:13:36,758 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:13:37,762 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:13:37,762 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:13:38,323 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:13:38,324 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:13:39,326 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:13:39,901 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:13:39,903 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:13:40,908 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:13:40,909 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:13:56,526 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:13:56,527 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:13:57,529 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:13:58,095 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:13:58,096 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:13:59,099 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:13:59,100 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:14:09,504 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:14:09,506 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:14:10,508 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:14:11,047 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:14:11,048 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:14:12,054 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:14:12,055 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:14:12,608 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:14:12,609 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:14:13,611 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:14:14,163 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:14:14,164 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:14:15,169 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:14:15,170 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:14:15,715 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:14:15,716 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:14:16,717 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:14:17,306 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:14:17,307 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:27:30,852 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:27:30,864 | INFO | candidate_ranker.job_processor | Inserted job JD001 into DB
+2026-02-19 12:27:30,870 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:27:30,881 | INFO | candidate_ranker.job_processor | Inserted job JD002 into DB
+2026-02-19 12:27:30,887 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:27:30,898 | INFO | candidate_ranker.job_processor | Inserted job JD003 into DB
+2026-02-19 12:27:30,906 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:27:30,915 | INFO | candidate_ranker.job_processor | Inserted job JD004 into DB
+2026-02-19 12:27:30,923 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:27:30,932 | INFO | candidate_ranker.job_processor | Inserted job JD005 into DB
+2026-02-19 12:27:30,985 | INFO | candidate_ranker.extractor | Inserted candidate sim-57607468 into DB
+2026-02-19 12:27:30,992 | INFO | candidate_ranker.extractor | Inserted candidate sim-75217667 into DB
+2026-02-19 12:27:31,078 | INFO | candidate_ranker.extractor | Inserted candidate sim-1964785 into DB
+2026-02-19 12:27:31,084 | INFO | candidate_ranker.extractor | Inserted candidate sim-95646585 into DB
+2026-02-19 12:27:31,092 | INFO | candidate_ranker.extractor | Inserted candidate sim-48833979 into DB
+2026-02-19 12:27:31,099 | INFO | candidate_ranker.extractor | Inserted candidate sim-93959370 into DB
+2026-02-19 12:27:31,106 | INFO | candidate_ranker.extractor | Inserted candidate sim-19457364 into DB
+2026-02-19 12:27:31,160 | INFO | candidate_ranker.extractor | Inserted candidate sim-68876339 into DB
+2026-02-19 12:27:31,270 | INFO | candidate_ranker.extractor | Inserted candidate sim-99404660 into DB
+2026-02-19 12:27:31,335 | INFO | candidate_ranker.extractor | Inserted candidate sim-99404660 into DB
+2026-02-19 12:27:31,372 | INFO | candidate_ranker.extractor | Inserted candidate sim-75701601 into DB
+2026-02-19 12:27:31,374 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:27:31,380 | INFO | candidate_ranker.extractor | Inserted candidate sim-87980810 into DB
+2026-02-19 12:27:31,383 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:27:31,388 | INFO | candidate_ranker.extractor | Inserted candidate sim-97025367 into DB
+2026-02-19 12:27:31,391 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:27:31,399 | INFO | candidate_ranker.extractor | Inserted candidate sim-65404092 into DB
+2026-02-19 12:27:31,401 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:27:31,407 | INFO | candidate_ranker.extractor | Inserted candidate sim-57230516 into DB
+2026-02-19 12:27:31,410 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:27:31,415 | INFO | candidate_ranker.extractor | Inserted candidate sim-5619910 into DB
+2026-02-19 12:27:31,466 | INFO | candidate_ranker.extractor | Inserted candidate sim-63322325 into DB
+2026-02-19 12:27:31,469 | INFO | candidate_ranker.extractor | Inserted candidate sim-5941227 into DB
+2026-02-19 12:27:31,530 | INFO | candidate_ranker.extractor | Inserted candidate sim-86479458 into DB
+2026-02-19 12:28:01,084 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:28:01,085 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:28:01,873 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:28:01,874 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:02,876 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:28:03,725 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:28:03,725 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:04,733 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:28:04,733 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:28:05,395 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:28:05,396 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:06,399 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:28:07,020 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:28:07,022 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:08,028 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:28:08,029 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:28:08,614 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:28:08,615 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:09,617 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:28:10,150 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:28:10,151 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:11,156 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:28:11,157 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:28:21,603 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:28:21,603 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:22,606 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:28:23,231 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:28:23,233 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:24,237 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:28:24,238 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:28:24,842 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:28:24,842 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:25,844 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:28:26,411 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:28:26,412 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:27,419 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:28:27,420 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:28:28,005 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:28:28,007 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:29,008 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:28:29,562 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:28:29,563 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:30,567 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:28:30,568 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:28:31,143 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:28:31,144 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:32,145 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:28:32,770 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:28:32,771 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:33,776 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:28:33,777 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:28:34,475 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:28:34,476 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:35,478 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:28:36,063 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:28:36,065 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:37,069 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:28:37,070 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:28:37,639 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:28:37,639 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:38,640 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:28:39,186 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:28:39,187 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:40,195 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:28:40,196 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:28:40,946 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:28:40,947 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:41,948 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:28:42,542 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:28:42,544 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:43,549 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:28:43,549 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:28:44,143 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:28:44,144 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:45,145 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:28:45,678 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:28:45,679 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:46,683 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:28:46,683 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:28:47,260 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:28:47,261 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:48,262 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:28:48,860 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:28:48,861 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:49,865 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:28:49,866 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:28:50,458 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:28:50,459 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:51,463 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:28:52,018 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:28:52,018 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:53,024 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:28:53,025 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:28:53,631 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:28:53,632 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:54,635 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:28:55,230 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:28:55,231 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:28:56,236 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:28:56,236 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:29:03,977 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:29:03,978 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:29:04,979 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:29:05,605 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:29:05,605 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:29:06,610 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:29:06,610 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:29:07,188 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:29:07,189 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:29:08,190 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:29:08,834 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:29:08,835 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:29:09,841 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:29:09,841 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:29:10,422 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:29:10,423 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:29:11,425 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:29:13,022 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:29:13,023 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:29:14,029 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:29:14,030 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:29:14,612 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:29:14,613 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:29:15,615 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:29:16,254 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:29:16,255 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:05,243 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:30:05,278 | INFO | candidate_ranker.job_processor | Inserted job JD001 into DB
+2026-02-19 12:30:05,282 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:30:05,292 | INFO | candidate_ranker.job_processor | Inserted job JD002 into DB
+2026-02-19 12:30:05,295 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:30:05,324 | INFO | candidate_ranker.job_processor | Inserted job JD003 into DB
+2026-02-19 12:30:05,327 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:30:05,355 | INFO | candidate_ranker.job_processor | Inserted job JD004 into DB
+2026-02-19 12:30:05,359 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:30:05,368 | INFO | candidate_ranker.job_processor | Inserted job JD005 into DB
+2026-02-19 12:30:05,453 | INFO | candidate_ranker.extractor | Inserted candidate sim-57607468 into DB
+2026-02-19 12:30:05,459 | INFO | candidate_ranker.extractor | Inserted candidate sim-75217667 into DB
+2026-02-19 12:30:05,538 | INFO | candidate_ranker.extractor | Inserted candidate sim-1964785 into DB
+2026-02-19 12:30:05,542 | INFO | candidate_ranker.extractor | Inserted candidate sim-95646585 into DB
+2026-02-19 12:30:05,546 | INFO | candidate_ranker.extractor | Inserted candidate sim-48833979 into DB
+2026-02-19 12:30:05,550 | INFO | candidate_ranker.extractor | Inserted candidate sim-93959370 into DB
+2026-02-19 12:30:05,555 | INFO | candidate_ranker.extractor | Inserted candidate sim-19457364 into DB
+2026-02-19 12:30:05,591 | INFO | candidate_ranker.extractor | Inserted candidate sim-68876339 into DB
+2026-02-19 12:30:05,665 | INFO | candidate_ranker.extractor | Inserted candidate sim-99404660 into DB
+2026-02-19 12:30:05,709 | INFO | candidate_ranker.extractor | Inserted candidate sim-99404660 into DB
+2026-02-19 12:30:05,735 | INFO | candidate_ranker.extractor | Inserted candidate sim-75701601 into DB
+2026-02-19 12:30:05,736 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:30:05,741 | INFO | candidate_ranker.extractor | Inserted candidate sim-87980810 into DB
+2026-02-19 12:30:05,742 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:30:05,750 | INFO | candidate_ranker.extractor | Inserted candidate sim-97025367 into DB
+2026-02-19 12:30:05,751 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:30:05,757 | INFO | candidate_ranker.extractor | Inserted candidate sim-65404092 into DB
+2026-02-19 12:30:05,759 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:30:05,764 | INFO | candidate_ranker.extractor | Inserted candidate sim-57230516 into DB
+2026-02-19 12:30:05,765 | WARNING | PyPDF2._reader | incorrect startxref pointer(1)
+2026-02-19 12:30:05,770 | INFO | candidate_ranker.extractor | Inserted candidate sim-5619910 into DB
+2026-02-19 12:30:05,811 | INFO | candidate_ranker.extractor | Inserted candidate sim-63322325 into DB
+2026-02-19 12:30:05,814 | INFO | candidate_ranker.extractor | Inserted candidate sim-5941227 into DB
+2026-02-19 12:30:05,859 | INFO | candidate_ranker.extractor | Inserted candidate sim-86479458 into DB
+2026-02-19 12:30:15,691 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:30:15,691 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:30:16,061 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:30:16,062 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:17,064 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:30:17,368 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:30:17,368 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:18,375 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:30:18,375 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:30:18,713 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:30:18,714 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:19,717 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:30:20,055 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:30:20,056 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:21,061 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:30:21,063 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:30:21,426 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:30:21,427 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:22,429 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:30:22,765 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:30:22,766 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:23,767 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:30:23,767 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:30:24,103 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:30:24,105 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:25,106 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:30:25,446 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:30:25,446 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:26,451 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:30:26,452 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:30:26,773 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:30:26,775 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:27,776 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:30:28,104 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:30:28,105 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:29,113 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:30:29,113 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:30:29,457 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:30:29,458 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:30,459 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:30:30,799 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:30:30,801 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:31,806 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:30:31,807 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:30:32,124 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:30:32,126 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:33,128 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:30:33,471 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:30:33,472 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:34,475 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:30:34,475 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:30:34,821 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:30:34,821 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:35,823 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:30:36,155 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:30:36,157 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:37,163 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:30:37,164 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:30:37,518 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:30:37,520 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:38,521 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:30:38,852 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:30:38,853 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:39,859 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:30:39,859 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:30:40,190 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:30:40,191 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:41,193 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:30:41,531 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:30:41,531 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:42,536 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:30:42,537 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:30:42,862 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:30:42,862 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:43,868 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:30:44,203 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:30:44,205 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:45,210 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:30:45,211 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:30:45,527 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:30:45,528 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:46,530 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:30:46,859 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:30:46,860 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:47,866 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:30:47,867 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:30:48,190 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:30:48,192 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:49,193 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:30:49,510 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:30:49,511 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:50,516 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:30:50,516 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:30:50,839 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:30:50,840 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:51,842 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:30:52,169 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:30:52,171 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:53,176 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:30:53,177 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:30:53,515 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:30:53,517 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:54,519 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:30:54,858 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:30:54,859 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:55,865 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:30:55,866 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:30:56,180 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:30:56,181 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:57,183 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:30:57,500 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:30:57,501 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:58,517 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:30:58,517 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:30:58,844 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:30:58,845 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:30:59,847 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:31:00,177 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:31:00,178 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:31:01,184 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-02-19 12:31:01,184 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-19 12:31:01,544 | WARNING | huggingface_hub.utils._http | '[WinError 10054] An existing connection was forcibly closed by the remote host' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-19 12:31:01,545 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].
+2026-02-19 12:31:02,546 | WARNING | sentence_transformers.SentenceTransformer | No sentence-transformers model found with name sentence-transformers/all-MiniLM-L6-v2. Creating a new one with mean pooling.
+2026-02-19 12:31:03,543 | WARNING | huggingface_hub.utils._http | '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-02-19 12:31:03,545 | WARNING | huggingface_hub.utils._http | Retrying in 1s [Retry 1/5].

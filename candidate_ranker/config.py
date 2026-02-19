@@ -21,10 +21,19 @@ RANKING_COLLECTION = "rankings"
 LOG_COLLECTION = "logs"
 
 # ---------- LLM ----------
-LLM_MODEL_PATH = os.getenv(
-    "LLM_MODEL_PATH",
-    "models/ggml-gpt4all-j-v1.3-groovy.bin"
+# LLM_MODEL_PATH = os.getenv(
+#     "LLM_MODEL_PATH",
+#     "models/ggml-gpt4all-j-v1.3-groovy.bin"
+# )
+
+AZURE_OPENAI_API_KEY = os.getenv("AZURE_OPENAI_API_KEY")
+AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
+AZURE_OPENAI_DEPLOYMENT = os.getenv("AZURE_OPENAI_DEPLOYMENT")
+AZURE_OPENAI_API_VERSION = os.getenv(
+    "AZURE_OPENAI_API_VERSION",
+    "2024-02-15-preview"
 )
+
 
 LLM_RATE_LIMIT_SECONDS = 1.5  # simulate heavy local model usage
 

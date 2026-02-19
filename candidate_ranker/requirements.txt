@@ -8,3 +8,4 @@ sentence-transformers
 torch
 tqdm
 tabulate
+openai
